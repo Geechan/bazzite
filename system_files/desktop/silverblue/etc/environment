@@ -3,3 +3,6 @@ MUTTER_DEBUG_KMS_THREAD_TYPE=user
 
 # Disable Brew auto-update
 HOMEBREW_NO_AUTO_UPDATE=1
+
+# Enable freetype stem darkening for all fonts to improve font legibility: https://blog.aktsbot.in/no-more-blurry-fonts.html
+FREETYPE_PROPERTIES="cff:no-stem-darkening=0 autofitter:no-stem-darkening=0"
